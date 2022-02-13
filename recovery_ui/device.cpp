@@ -30,7 +30,7 @@ static std::vector<std::pair<std::string, Device::BuiltinAction>> g_menu_actions
   { "Reboot to system", Device::REBOOT },
   { "Reboot to bootloader", Device::REBOOT_BOOTLOADER },
   { "Reboot to recovery", Device::REBOOT_RECOVERY },
-  { "Enter fastboot mode", Device::ENTER_FASTBOOT },
+  { "Enter fastbootD", Device::ENTER_FASTBOOT },
   { "Install update from ADB Sideload", Device::APPLY_ADB_SIDELOAD },
   { "Install update from SD card", Device::APPLY_SDCARD },
   { "Format data/factory reset", Device::WIPE_DATA },
