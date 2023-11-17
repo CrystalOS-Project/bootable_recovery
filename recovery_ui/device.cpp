@@ -27,12 +27,12 @@
 #include "recovery_ui/ui.h"
 
 static std::vector<std::pair<std::string, Device::BuiltinAction>> g_menu_actions{
-  { "Reboot system now", Device::REBOOT },
+  { "Reboot to system", Device::REBOOT },
   { "Reboot to bootloader", Device::REBOOT_BOOTLOADER },
   { "Reboot to recovery", Device::REBOOT_RECOVERY },
-  { "Enter fastboot", Device::ENTER_FASTBOOT },
-  { "Apply update from ADB", Device::APPLY_ADB_SIDELOAD },
-  { "Apply update from SD card", Device::APPLY_SDCARD },
+  { "Enter fastboot mode", Device::ENTER_FASTBOOT },
+  { "Install update from ADB Sideload", Device::APPLY_ADB_SIDELOAD },
+  { "Install update from SD card", Device::APPLY_SDCARD },
   { "Format data/factory reset", Device::WIPE_DATA },
   { "Format cache partition", Device::WIPE_CACHE },
   { "Format system partition", Device::WIPE_SYSTEM },
@@ -40,7 +40,7 @@ static std::vector<std::pair<std::string, Device::BuiltinAction>> g_menu_actions
   { "View recovery logs", Device::VIEW_RECOVERY_LOGS },
   { "Run graphics test", Device::RUN_GRAPHICS_TEST },
   { "Run locale test", Device::RUN_LOCALE_TEST },
-  { "Enter rescue", Device::ENTER_RESCUE },
+  { "Enter rescue mode", Device::ENTER_RESCUE },
   { "Power off", Device::SHUTDOWN },
 };
 
